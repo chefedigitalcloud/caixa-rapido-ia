@@ -6,69 +6,65 @@
   <title>Caixa Rápido + IA</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1500624580943243');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1500624580943243&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
 </head>
 <body class="bg-white text-black font-sans">
+
   <!-- Header -->
   <header class="w-full py-4 flex justify-center bg-white shadow-sm">
     <img src="logo.png" alt="Caixa Rápido + IA" class="h-20 md:h-28 lg:h-32">
   </header>
 
   <!-- Hero -->
-  <section class="py-20 bg-black text-white">
+  <section class="py-20 bg-black text-white relative">
     <div class="max-w-6xl mx-auto grid md:grid-cols-2 items-center gap-8 px-6">
       <div class="text-center md:text-left">
-        <h1 class="text-4xl md:text-6xl font-bold mb-6">Levante Caixa Rápido no Digital Usando +IA</h1>
-        <p class="text-lg md:text-xl mb-8">Aprenda a criar arquiteturas de infoprodutos e sistemas com Inteligência Artificial que vendem todos os dias — mesmo enquanto você dorme.</p>
-        <a href="https://t.me/+hBor03l6HcllMTVh" target="_blank" class="bg-white text-black px-8 py-4 rounded-2xl font-semibold hover:bg-gray-200 transition">Quero Acessar Agora</a>
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+          Crie Sistemas que Vendem no Automático com IA em até 7 Dias
+        </h1>
+        <p class="text-lg md:text-xl mb-8 text-gray-300">
+          Estruture negócios digitais com Inteligência Artificial que geram vendas recorrentes — mesmo enquanto você dorme.
+        </p>
+
+        <!-- Contador clean -->
+        <div class="mb-6">
+          <p class="text-sm text-gray-400 uppercase tracking-wide">Oferta expira em:</p>
+          <div id="countdown" class="text-3xl font-mono font-bold mt-2"></div>
+        </div>
+
+        <a href="https://t.me/+hBor03l6HcllMTVh" target="_blank" class="bg-white text-black px-8 py-4 rounded-2xl font-bold hover:bg-gray-200 transition inline-block">
+          🚀 Garantir Meu Acesso Agora
+        </a>
       </div>
       <div class="block mt-8 md:mt-0">
-  <img src="https://cdn.prod.website-files.com/592830b84abbcb2c52c54ad2/64828d20b8e30559b16d78dc_6480b9b5f16bac5046a32b2a_4ca32a60.webp" 
-       alt="Parceria humano e IA" 
-       class="w-full max-w-xs sm:max-w-sm md:max-w-lg mx-auto rounded-xl shadow-lg">
-</div>
-
+        <img src="https://cdn.prod.website-files.com/592830b84abbcb2c52c54ad2/64828d20b8e30559b16d78dc_6480b9b5f16bac5046a32b2a_4ca32a60.webp" 
+             alt="Parceria humano e IA" 
+             class="w-full max-w-xs sm:max-w-sm md:max-w-lg mx-auto rounded-xl shadow-lg">
+      </div>
     </div>
   </section>
 
   <!-- Benefícios -->
   <section class="py-16 px-6 max-w-6xl mx-auto grid md:grid-cols-4 gap-8 text-center">
     <div>
-      <h3 class="text-xl font-bold mb-2">🚀 Venda no Automático</h3>
-      <p>Sistemas que trabalham 24/7 por você.</p>
+      <h3 class="text-xl font-semibold mb-2">🚀 Venda no Automático</h3>
+      <p class="text-gray-600">Sistemas que trabalham 24/7 por você.</p>
     </div>
     <div>
-      <h3 class="text-xl font-bold mb-2">🤖 IA que Gera Caixa</h3>
-      <p>Aplicando inteligência artificial no marketing e vendas.</p>
+      <h3 class="text-xl font-semibold mb-2">🤖 IA que Gera Caixa</h3>
+      <p class="text-gray-600">Aplicando inteligência artificial no marketing e vendas.</p>
     </div>
     <div>
-      <h3 class="text-xl font-bold mb-2">📈 Escalabilidade Simples</h3>
-      <p>Arquitetura pronta para crescer junto com você.</p>
+      <h3 class="text-xl font-semibold mb-2">📈 Escalabilidade Simples</h3>
+      <p class="text-gray-600">Arquitetura pronta para crescer junto com você.</p>
     </div>
     <div>
-      <h3 class="text-xl font-bold mb-2">💰 Caixa Imediato</h3>
-      <p>Estratégias práticas que trazem retorno rápido.</p>
+      <h3 class="text-xl font-semibold mb-2">💰 Caixa Imediato</h3>
+      <p class="text-gray-600">Estratégias práticas que trazem retorno rápido.</p>
     </div>
   </section>
 
-  <!-- Provas Sociais (Carrossel) -->
-  <section class="py-16 bg-gray-100 text-center">
+  <!-- Provas Sociais (igual original) -->
+  <section class="py-16 bg-gray-50 text-center">
     <h2 class="text-3xl font-bold mb-8">Centenas já estão aplicando e tendo resultados</h2>
     <div class="swiper mySwiper max-w-5xl mx-auto">
       <div class="swiper-wrapper">
@@ -78,10 +74,6 @@ src="https://www.facebook.com/tr?id=1500624580943243&ev=PageView&noscript=1"
         <div class="swiper-slide"><img src="SnapInsta.to_508466770_17849724441484008_4736567589756218075_n.jpg" class="rounded-xl shadow mx-auto"></div>
         <div class="swiper-slide"><img src="SnapInsta.to_508340742_17849724414484008_5612636269780833250_n.jpg" class="rounded-xl shadow mx-auto"></div>
         <div class="swiper-slide"><img src="SnapInsta.to_508638373_17849724423484008_4027596073362680737_n.jpg" class="rounded-xl shadow mx-auto"></div>
-        <div class="swiper-slide"><img src="SnapInsta.to_508656591_17849724462484008_212714484082278275_n.jpg" class="rounded-xl shadow mx-auto"></div>
-        <div class="swiper-slide"><img src="SnapInsta.to_508405249_17849724375484008_4108283106291086682_n.jpg" class="rounded-xl shadow mx-auto"></div>
-        <div class="swiper-slide"><img src="SnapInsta.to_508426516_17849724366484008_1132814108995814423_n.jpg" class="rounded-xl shadow mx-auto"></div>
-        <div class="swiper-slide"><img src="SnapInsta.to_508643708_17849724501484008_1439538439470974374_n.jpg" class="rounded-xl shadow mx-auto"></div>
       </div>
       <div class="swiper-pagination"></div>
       <div class="swiper-button-next"></div>
@@ -89,27 +81,50 @@ src="https://www.facebook.com/tr?id=1500624580943243&ev=PageView&noscript=1"
     </div>
   </section>
 
-  <!-- Como Funciona -->
+  <!-- Garantia e Bônus -->
   <section class="py-16 px-6 max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
     <div class="text-center md:text-left">
-      <h2 class="text-3xl font-bold mb-12">Bônus e Garantia!</h2>
+      <h2 class="text-3xl font-bold mb-12">Bônus Exclusivos + Garantia Total</h2>
       <div class="grid gap-8">
         <div class="p-6 border rounded-2xl shadow-sm">
-          <h3 class="font-bold mb-2">7 dias de garantia</h3>
-          <p>Garantia incondicional de 7 dias. Se não gostar, devolvemos 100% do seu investimento.</p>
+          <h3 class="font-bold mb-2">✅ 7 dias de garantia</h3>
+          <p class="text-gray-600">Se não gostar, devolvemos 100% do seu investimento.</p>
         </div>
         <div class="p-6 border rounded-2xl shadow-sm">
-          <h3 class="font-bold mb-2">Aplique IA</h3>
-          <p>Aprenda criar AgentesGPT e treina-los a Implementar Inteligência Artificial para vendas recorrentes.</p>
+          <h3 class="font-bold mb-2">🤖 Aplique IA</h3>
+          <p class="text-gray-600">Aprenda a criar AgentesGPT treinados para gerar vendas recorrentes.</p>
         </div>
         <div class="p-6 border rounded-2xl shadow-sm">
-          <h3 class="font-bold mb-2">Pack de Prompts</h3>
-          <p>50 prompts prontos para vender como serviço.</p>
+          <h3 class="font-bold mb-2">📜 Pack de Prompts</h3>
+          <p class="text-gray-600">50 prompts prontos para você vender como serviço.</p>
         </div>
       </div>
     </div>
     <div>
-      <img src="https://cdn.prod.website-files.com/592830b84abbcb2c52c54ad2/64828d161867cc9b3ba87dba_6480b9b2530f28480b19b630_1bcfed54.webp" alt="Fluxo de vendas IA" class="w-full max-w-lg mx-auto rounded-xl shadow-lg">
+      <img src="https://cdn.prod.website-files.com/592830b84abbcb2c52c54ad2/64828d161867cc9b3ba87dba_6480b9b2530f28480b19b630_1bcfed54.webp" 
+           alt="Fluxo de vendas IA" 
+           class="w-full max-w-lg mx-auto rounded-xl shadow-lg">
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-10">Dúvidas Frequentes</h2>
+      <div class="space-y-6">
+        <div>
+          <h3 class="font-bold">❓ Preciso ter experiência em tecnologia?</h3>
+          <p class="text-gray-600">Não! O método foi criado para iniciantes e você vai aprender passo a passo.</p>
+        </div>
+        <div>
+          <h3 class="font-bold">❓ Quanto tempo até ver resultados?</h3>
+          <p class="text-gray-600">Muitos alunos têm resultados em menos de 7 dias aplicando as estratégias.</p>
+        </div>
+        <div>
+          <h3 class="font-bold">❓ O acesso é vitalício?</h3>
+          <p class="text-gray-600">Sim! Você garante acesso vitalício a todo o conteúdo e atualizações.</p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -118,15 +133,23 @@ src="https://www.facebook.com/tr?id=1500624580943243&ev=PageView&noscript=1"
     <div class="max-w-6xl mx-auto grid md:grid-cols-2 items-center gap-8 px-6">
       <div class="text-center md:text-left">
         <h2 class="text-4xl font-bold mb-6">A hora de vender de verdade é agora</h2>
-        <p class="text-lg mb-8">Entre para o real black marketing, caixa rápido com IA e construa sistemas que geram vendas todos os dias.</p>
-        <a href="https://t.me/+hBor03l6HcllMTVh" target="_blank" class="bg-white text-black px-8 py-4 rounded-2xl font-semibold hover:bg-gray-200 transition">Quero Acessar Agora</a>
+        <p class="text-lg mb-8 text-gray-300">Entre para o real black marketing com IA e construa sistemas que geram vendas todos os dias.</p>
+
+        <!-- Contador clean final -->
+        <div class="mb-6">
+          <p class="text-sm text-gray-400 uppercase tracking-wide">Últimas horas para garantir sua vaga:</p>
+          <div id="countdown2" class="text-3xl font-mono font-bold mt-2"></div>
+        </div>
+
+        <a href="https://t.me/+hBor03l6HcllMTVh" target="_blank" class="bg-white text-black px-8 py-4 rounded-2xl font-bold hover:bg-gray-200 transition">
+          🚀 Quero Garantir Meu Acesso Agora
+        </a>
       </div>
       <div class="block mt-8 md:mt-0">
-  <img src="https://www.agenciaeplus.com.br/wp-content/uploads/2025/05/IA-para-ecommerce.jpg" 
-       alt="Futuro com IA" 
-       class="w-full max-w-xs sm:max-w-sm md:max-w-lg mx-auto rounded-xl shadow-lg">
-</div>
-
+        <img src="https://www.agenciaeplus.com.br/wp-content/uploads/2025/05/IA-para-ecommerce.jpg" 
+             alt="Futuro com IA" 
+             class="w-full max-w-xs sm:max-w-sm md:max-w-lg mx-auto rounded-xl shadow-lg">
+      </div>
     </div>
   </section>
 
@@ -136,33 +159,55 @@ src="https://www.facebook.com/tr?id=1500624580943243&ev=PageView&noscript=1"
     <p class="text-sm text-gray-500">© 2025 Caixa Rápido + IA. Todos os direitos reservados.</p>
   </footer>
 
+  <!-- Botão fixo mobile -->
+  <a href="https://t.me/+hBor03l6HcllMTVh" target="_blank"
+     class="fixed bottom-4 right-4 bg-black text-white px-6 py-3 rounded-full font-bold shadow-lg hover:bg-gray-800 transition md:hidden">
+     🚀 Acessar Agora
+  </a>
+
+  <!-- Swiper -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
     var swiper = new Swiper(".mySwiper", {
       loop: true,
-      autoplay: {
-        delay: 10000,
-        disableOnInteraction: false,
-      },
+      autoplay: { delay: 7000, disableOnInteraction: false },
       slidesPerView: 1,
       spaceBetween: 20,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      breakpoints: {
-        640: {
-          slidesPerView: 2,
-        },
-        1024: {
-          slidesPerView: 3,
-        }
-      }
+      pagination: { el: ".swiper-pagination", clickable: true },
+      navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
+      breakpoints: { 640: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }
     });
+
+    // === Contador Regressivo (72h por usuário) ===
+    const now = new Date().getTime();
+    const countdownDate = now + (72 * 60 * 60 * 1000);
+
+    function startCountdown(id, deadline) {
+      const x = setInterval(function() {
+        const now = new Date().getTime();
+        const distance = deadline - now;
+
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById(id).innerHTML = "Oferta Encerrada";
+          return;
+        }
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById(id).innerHTML =
+          (days > 0 ? days + "d " : "") +
+          ("0" + hours).slice(-2) + ":" +
+          ("0" + minutes).slice(-2) + ":" +
+          ("0" + seconds).slice(-2);
+      }, 1000);
+    }
+
+    startCountdown("countdown", countdownDate);
+    startCountdown("countdown2", countdownDate);
   </script>
 </body>
 </html>
